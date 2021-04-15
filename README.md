@@ -1,2 +1,2 @@
 # free_code_camp_JS
- Estudos realizando a trilha JS do freecodecamp
+ Estudos do básico ao avançado na trilha JS do freecodecamp
