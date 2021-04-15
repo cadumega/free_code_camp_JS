@@ -335,5 +335,54 @@ if (num > 5 && num < 10) {
 return "No";
 
 ex)Replace the two if statements with one statement, using the && operator, which will return the string Yes if val is less than or equal to 50 and greater than or equal to 25. Otherwise, will return the string No.
+
 r)
- */
+function testLogicalAnd(val) {
+  if (val <= 50 && val >= 25) {
+    return "Yes";
+  }
+
+  return "No";
+}
+
+// Change this value to test
+testLogicalAnd(10);
+
+*)Comparisons with the Logical Or Operator
+The logical or operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+
+The logical or operator is composed of two pipe symbols: (||). This can typically be found between your Backspace and Enter keys.
+
+The pattern below should look familiar from prior waypoints:
+
+if (num > 10) {
+  return "No";
+}
+if (num < 5) {
+  return "No";
+}
+return "Yes";
+
+will return Yes only if num is between 5 and 10 (5 and 10 included). The same logic can be written as:
+
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+
+ex)Combine the two if statements into one statement which returns the string Outside if val is not between 10 and 20, inclusive. Otherwise, return the string Inside.
+
+R)//O código acima retornará “Fora” somente se val estiver entre 10 e 20 (inclusive).
+
+function testLogicalOr(val) {
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+  return "Inside";
+}
+
+testLogicalOr(15);
+
+
+
+*/
